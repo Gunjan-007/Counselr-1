@@ -1,0 +1,31 @@
+.details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 20px;
+    padding: 20px 20px;
+    box-shadow: 10px 10px 20px 10px rgba(128, 128, 128, 0.249);
+
+}
+.details>div{
+    width: 60%;
+}
+.details>img{
+    height: 200px;
+    border-radius: 10px;
+}
+
+
+@media (max-width:768px){
+    .details{
+        width: 70%;
+        flex-direction: column;
+        /* width: fit-content; */
+        margin: auto;
+        margin-top: 50px;
+    }
+    
+}

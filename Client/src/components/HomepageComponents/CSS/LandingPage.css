@@ -1,0 +1,28 @@
+.exam{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+
+}
+.exam>img{
+    height: 400px;
+}
+.exam>div>a{
+    text-decoration: none;
+    border: 1px solid;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+@media (max-width:768px){
+    .exam{
+        width: 70%;
+        flex-direction: column;
+        /* width: fit-content; */
+        text-align: center;
+        margin: auto;
+        margin-top: 50px;
+    }
+    
+}
