@@ -14,12 +14,20 @@
     padding: 10px 20px;
     border-radius: 10px;
 }
-
+div a {
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    margin-left: 130px;
+    gap: 10px;
+}
+div a img{
+height: 40px;
+}
 @media (max-width:768px){
     .exam{
         width: 70%;
         flex-direction: column;
-        /* width: fit-content; */
         text-align: center;
         margin: auto;
         margin-top: 50px;

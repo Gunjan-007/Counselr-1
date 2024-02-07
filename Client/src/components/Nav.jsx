@@ -12,7 +12,7 @@ export default function Nav(){
       },[])
     return(
         <nav data-aos="flip-down">
-        <div><img src={logo} alt="" /></div>
+            <Link to='/'><div><img src={logo} alt="" /></div></Link>
         <div>
             <ul>
                 <Link to='/' style={{textDecoration: 'none'}} className='LinkBtn'>Home</Link>
