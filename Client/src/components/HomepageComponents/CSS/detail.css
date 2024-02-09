@@ -18,7 +18,10 @@
     border-radius: 10px;
 }
 
-
+a{
+    text-decoration: none;
+    color: black;
+}
 @media (max-width:768px){
     .details{
         width: 70%;
