@@ -16,8 +16,10 @@ export default function Nav(){
         <div>
             <ul>
                 <Link to='/' style={{textDecoration: 'none'}} className='LinkBtn'>Home</Link>
-                <Link to='/login' style={{textDecoration: 'none'}}>Login</Link>
-                <Link to='/signup' style={{textDecoration: 'none'}}>Signup</Link>
+                <Link to='/About' style={{textDecoration: 'none'}} className='LinkBtn'>About</Link>
+                <Link to='/Pricing' style={{textDecoration: 'none'}} className='LinkBtn'>Pricing</Link>
+                <Link to='/login' style={{textDecoration: 'none'}}  className='LinkBtn'>Login</Link>
+                <Link to='/signup' style={{textDecoration: 'none'}}  className='LinkBtn'>Signup</Link>
             </ul>
       
       
