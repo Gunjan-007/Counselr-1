@@ -13,6 +13,7 @@ import Home from "./components/HomepageComponents/Home";
 import { Form } from "./components/HomepageComponents/Form";
 import LandingPage from "./components/HomepageComponents/LandingPage";
 import Pricing from "./components/Pricing";
+import About from "./components/HomepageComponents/About";
 function App() {
   return (
     <div> 
@@ -23,7 +24,7 @@ function App() {
         <Route path="/signup" element={<Signup/>}></Route>
         <Route path="/Pricing" element={<Pricing/>}></Route>
         <Route path="/landing" element={<LandingPage/>}></Route>
-        <Route path="/landing" element={<LandingPage/>}></Route>
+        <Route path="/About" element={<About/>}></Route>
         <Route path="/Form" element={<Form/>}></Route>
       </Routes>
       

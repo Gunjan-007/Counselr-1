@@ -5,10 +5,11 @@ import { GoRocket } from "react-icons/go";
 
 export default function Pricing() {
   return (
-    <div >
+    <div className="price">
   
   <h1>Pricing</h1>
-  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, nisi?</p>
+  
+  <p>Pricing structure for our services</p>
       <section className="mainPricingSection">
         <div className="free">
           <div className="icon">

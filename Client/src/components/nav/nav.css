@@ -7,6 +7,10 @@ nav{
     height: 60px;
     box-shadow: 10px 10px 15px 10px rgba(128, 128, 128, 0.258);
 }
+.img{
+    margin-top: .2em;
+    height: 3.5em;
+}
 nav>div>ul{
     list-style: none;
     display: flex;
@@ -39,13 +43,15 @@ nav>div>ul>Link{
     /* padding: .1em .6em; */
     /* border-radius: .5em; */
     margin-left:3em;
-    border: 1px solid rgba(0, 0, 255, 0.589);
+    border: 1px solid black;
     padding: .2em .5em;
     border-radius: .2em;
     transition: .3s;
+    background-color:#FFF6E9;
+   padding-bottom: .3em;
 }
 .LinkBtn:hover{
-    background-color: blue;
+    background-color: #40A2E3;
     color: #ffffff;
     box-shadow:  .2em .2em .3em rgba(128, 128, 128, 0.653);
 }
